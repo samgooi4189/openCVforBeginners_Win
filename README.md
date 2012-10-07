@@ -48,9 +48,9 @@ Change the helloworld.cpp in source:<br />
 &#35;include &lt;cxcore.h&gt;<br />
 &#35;include &lt;highgui.h&gt;<br />
 <br />
-int &lowbar;tmain(int argc, &lowbar;TCHAR&#42; argv[])<br />
+int _tmain(int argc, _TCHAR* argv[])<br />
 {<br />
-        IplImage &#42img = cvLoadImage(&quot;funny-pictures-cat-goes-pew.jpg&quot;)&#59;<br />
+        IplImage *img = cvLoadImage(&quot;funny-pictures-cat-goes-pew.jpg&quot;)&#59;<br />
         cvNamedWindow("Image:",1)&#59;<br />
         cvShowImage("image:",img)&#59;<br />
 <br />

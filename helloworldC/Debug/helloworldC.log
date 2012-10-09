@@ -1,4 +1,4 @@
-﻿Build started 10/7/2012 4:27:12 PM.
+﻿Build started 10/8/2012 1:45:47 PM.
      1>Project "H:\opencvHelloWorld\helloworld\helloworldC\helloworldC.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\helloworldC.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -27,4 +27,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.21
+Time Elapsed 00:00:04.52

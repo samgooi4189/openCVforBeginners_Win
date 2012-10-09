@@ -28,7 +28,9 @@ int _tmain(int argc, _TCHAR* argv[])
     int aperture   = aperture_sizes[aperture_index];
 
     VideoCapture cap(0); // open the default camera
-    if(!cap.isOpened())  // check if we succeeded
+	//string videostream = "rtsp://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov" ;
+    //if(!cap.open(videostream))  // check if we succeeded
+	if(!cap.isOpened())
         return -1;
 
     Mat edges;
